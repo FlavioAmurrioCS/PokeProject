@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <style>
+        img {
+        width: 300px
+    }
+    h1 {
+    text-transform: lowercase;
+    line-height: 3;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+}
+    </style>
+</head>
+
+<body>
+    <input type="text" name="pokenum" id="pokenum">
+    <button onclick="getpokemon()">catch it</button>
+    <h1 id="pokename"></h1>
+    <div id="div1"></div>
+</body>
+
+</html>
